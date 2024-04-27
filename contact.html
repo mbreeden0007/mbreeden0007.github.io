@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- 
+	Author: Matthew Breeden
+	File Name: contact.html
+	Today's Date: 4/24/2024
+ -->
+<html lang="en">
+<head>
+	<title>My Resume: Contact Info</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    
+    <div>
+        
+
+        <header>
+            <h1>Matthew Breeden: Computer Specialist</h1>
+			<h2>Do you wish to contact me?</h2>
+			<div class="tab-pic">
+                  <a href="index.html"><img src="images/pexels-pixabay-270404.jpg" alt="some basic code"></a>
+                </div>
+        </header>
+		 <!-- Mobile Nav -->
+            <nav class="mobile-nav">
+                <div id="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="qualifications.html">My Qualifications</a>
+                    <a href="recentwork.html">Recent Work</a>
+                    <a href="contact.html">Contact Info</a>
+                </div>
+            </nav> 
+
+        <nav class="tab-desk">
+            <ul>
+                <li><a href="index.html">Home</a></li>  
+                <li><a href="about.html">About Me</a></li> 
+                <li><a href="qualifications.html">My Qualifications</a></li> 
+                <li><a href="recentwork.html">Recent Work</a></li> 
+                <li><a href="contact.html">Contact Info</a></li>
+            </ul>
+        </nav>
+
+        <!-- Use the main area to add the main content to the webpage -->
+        <main>
+            <div id="contact">
+
+                <h2>You can reach me at:</h2>
+                <p><a href="tel:5025582946">(502) 558-2946</a></p>
+                <p>Email: <a href="mailto:mbreeden0007@kctcs.edu">mbreeden0007@kctcs.edu</a></p>
+                <p>FaceBook: <a href="https://www.facebook.com/" target="_blank" class="link">"Insert fake Facebook name here"</a></p>
+				
+
+            </div>
+			
+					<div id="form">
+
+                <h2>Complete the form below and I will contact you at the earliest convenience.</h2>
+
+                <form class="form-grid"><!-- Start Form-->
+                    
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label for="fName">Full Name:</label>
+                        <input type="text" name="fName" id="fName">
+
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information</legend>
+							
+						<label for="jobtype">What type of Computer help do you need?</label>	
+							<input type="checkbox" id="type1" name="type1" value="Hardware">
+							<label for="job1"> Hardware</label>
+							<input type="checkbox" id="type2" name="type2" value="Software">
+							<label for="vehicle2"> Software</label>
+						
+						<label for="qualifications">Which of my qualifications are you most interested in:</label>
+							<select id="qualifications" name="qualifications">
+							  <option value="Java coding">Java coding</option>
+							  <option value="C++ coding">C++ coding</option>
+							  <option value="Website Design">Website Design</option>
+							  <option value="Internet Security Fundementals">Internet Security Fundementals</option>
+							  <option value="Computer Hardware and Software">Computer Hardware and Software</option>
+							</select>
+							
+						<p>I would like to meet you:</p>
+						
+                        <label for="inp"><input type="radio" name="info" id="inp" value="Volunteering">In Person</label>
+                    
+                        <label for="onl"><input type="radio" name="info" id="onl" value="Sponsorship Opportunities">Through microsoft teams/skype</label>
+
+                        <label for="questions">What questions do you have for me?</label>
+                        <textarea name="questions" id="questions" rows="5" cols="35"></textarea>
+						
+						<label for="datetimeEntry">Reqested time for interview/Availability</label>
+						<input type="text" data-datetimeEntry="datetimeFormat: 'Y-O-D H:M', minTime: 'new Date(0, 0, 0, 8, 30, 0)'">
+                    </fieldset>
+
+                    <input type="submit" id="submit" value="Submit">
+                
+                </form>
+                
+            </div>
+			
+        </main>
+
+			<footer>
+				<p>&copy; Copyright 2024. All Rights Reserved.</p>
+				<p><a href="mailto:mbreeden0007@kctcs.edu">mbreeden0007@kctcs.edu</a></p>
+			</footer>
+        
+    </div>
+	<script src="scripts/script.js"></script>
+</body>
+</html>
