@@ -1,0 +1,113 @@
+/*
+    Author: Matthew Breeden
+    File Name: styles.css
+    Today's Date: 4/24/2024
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #FF6D6D;
+}
+
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
+.tab-pic{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+
+}
+
+.hpi{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+nav {
+    background-color: #000000 ;
+}
+
+ .tab-desk {
+        display: block;
+    }
+ nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+	
+.mobile-nav a {
+    color: #fff;
+    text-align: center;  
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f6eee4;
+    padding: 2%;
+}
+.mobile, .mobile-nav {
+        display: none;
+    }
+figure {
+    border: 4px solid #2a1f14;
+    box-shadow: 4px 4px 10px #c5a687;
+    max-width: 400px;
+    margin: 2% auto;
+}
+
+figcaption {
+    padding: 2%;
+    border-top: 4px solid #2a1f14;
+}
+.fimg:hover{
+	 transform: scale(1.5);
+}
+.grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+}
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #000000;
+    color: #f6eee4;
+    padding: 1% 0;
+}
+
+footer a {
+    color: #f6eee4;
+    text-decoration: none;
+}
+fieldset, input, textarea  { 
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 2%;
+}
